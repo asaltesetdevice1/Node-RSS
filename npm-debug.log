@@ -1,0 +1,680 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'libxmljs' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.0
+4 silly cache add args [ 'libxmljs', null ]
+5 verbose cache add spec libxmljs
+6 silly cache add parsed spec { raw: 'libxmljs',
+6 silly cache add   scope: null,
+6 silly cache add   name: 'libxmljs',
+6 silly cache add   rawSpec: '',
+6 silly cache add   spec: '*',
+6 silly cache add   type: 'range' }
+7 verbose addNamed libxmljs@*
+8 silly addNamed semver.valid null
+9 silly addNamed semver.validRange *
+10 silly addNameRange { name: 'libxmljs', range: '*', hasData: false }
+11 silly mapToRegistry name libxmljs
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry uri https://registry.npmjs.org/libxmljs
+15 verbose addNameRange registry:https://registry.npmjs.org/libxmljs not in flight; fetching
+16 verbose get https://registry.npmjs.org/libxmljs not expired, no request
+17 silly addNameRange number 2 { name: 'libxmljs', range: '*', hasData: true }
+18 silly addNameRange versions [ 'libxmljs',
+18 silly addNameRange   [ '0.4.1',
+18 silly addNameRange     '0.4.2',
+18 silly addNameRange     '0.4.3',
+18 silly addNameRange     '0.5.0',
+18 silly addNameRange     '0.5.1',
+18 silly addNameRange     '0.5.2',
+18 silly addNameRange     '0.5.3',
+18 silly addNameRange     '0.5.4',
+18 silly addNameRange     '0.6.0',
+18 silly addNameRange     '0.6.1',
+18 silly addNameRange     '0.7.0',
+18 silly addNameRange     '0.7.1',
+18 silly addNameRange     '0.8.0',
+18 silly addNameRange     '0.8.1',
+18 silly addNameRange     '0.9.0',
+18 silly addNameRange     '0.10.0',
+18 silly addNameRange     '0.11.0',
+18 silly addNameRange     '0.11.1',
+18 silly addNameRange     '0.12.0',
+18 silly addNameRange     '0.13.0' ] ]
+19 verbose addNamed libxmljs@0.13.0
+20 silly addNamed semver.valid 0.13.0
+21 silly addNamed semver.validRange 0.13.0
+22 silly cache afterAdd libxmljs@0.13.0
+23 verbose afterAdd C:\Users\cshihadeh\AppData\Roaming\npm-cache\libxmljs\0.13.0\package\package.json not in flight; writing
+24 verbose afterAdd C:\Users\cshihadeh\AppData\Roaming\npm-cache\libxmljs\0.13.0\package\package.json written
+25 silly install resolved [ { name: 'libxmljs',
+25 silly install resolved     author: { name: 'Marco Rogers' },
+25 silly install resolved     contributors: [ [Object] ],
+25 silly install resolved     description: 'libxml bindings for v8 javascript engine',
+25 silly install resolved     version: '0.13.0',
+25 silly install resolved     scripts:
+25 silly install resolved      { test: 'node --expose_gc ./node_modules/.bin/nodeunit test',
+25 silly install resolved        install: 'node-gyp rebuild' },
+25 silly install resolved     repository: { type: 'git', url: 'http://github.com/polotek/libxmljs.git' },
+25 silly install resolved     bugs: { url: 'http://github.com/polotek/libxmljs/issues' },
+25 silly install resolved     main: './index',
+25 silly install resolved     engines: { node: '>=0.8.0' },
+25 silly install resolved     dependencies: { bindings: '1.1.1', nan: '1.5.1' },
+25 silly install resolved     devDependencies: { nodeunit: '0.9.0' },
+25 silly install resolved     gypfile: true,
+25 silly install resolved     gitHead: '949c7b3611e16d78fdfc988aa38258203c81fe39',
+25 silly install resolved     homepage: 'https://github.com/polotek/libxmljs',
+25 silly install resolved     _id: 'libxmljs@0.13.0',
+25 silly install resolved     _shasum: '04df28df57a0927452f860148e5f462cbaed08ff',
+25 silly install resolved     _from: 'libxmljs@*',
+25 silly install resolved     _npmVersion: '2.1.12',
+25 silly install resolved     _nodeVersion: '0.10.33',
+25 silly install resolved     _npmUser: { name: 'shtylman', email: 'shtylman@gmail.com' },
+25 silly install resolved     maintainers: [ [Object], [Object] ],
+25 silly install resolved     dist:
+25 silly install resolved      { shasum: '04df28df57a0927452f860148e5f462cbaed08ff',
+25 silly install resolved        tarball: 'http://registry.npmjs.org/libxmljs/-/libxmljs-0.13.0.tgz' },
+25 silly install resolved     directories: {},
+25 silly install resolved     _resolved: 'https://registry.npmjs.org/libxmljs/-/libxmljs-0.13.0.tgz',
+25 silly install resolved     readme: 'ERROR: No README data found!' } ]
+26 info install libxmljs@0.13.0 into D:\Node.js Dev\JobsNode
+27 info installOne libxmljs@0.13.0
+28 verbose installOne of libxmljs to D:\Node.js Dev\JobsNode not in flight; installing
+29 verbose lock using C:\Users\cshihadeh\AppData\Roaming\npm-cache\_locks\libxmljs-0f62e5c3febf8c2b.lock for D:\Node.js Dev\JobsNode\node_modules\libxmljs
+30 silly install write writing libxmljs 0.13.0 to D:\Node.js Dev\JobsNode\node_modules\libxmljs
+31 silly cache addNamed cb libxmljs@0.13.0
+32 verbose unbuild node_modules\libxmljs
+33 verbose gentlyRm vacuuming D:\Node.js Dev\JobsNode\node_modules\libxmljs
+34 verbose tar unpack C:\Users\cshihadeh\AppData\Roaming\npm-cache\libxmljs\0.13.0\package.tgz
+35 verbose tar unpacking to D:\Node.js Dev\JobsNode\node_modules\libxmljs
+36 verbose gentlyRm vacuuming D:\Node.js Dev\JobsNode\node_modules\libxmljs
+37 silly gunzTarPerm modes [ '777', '666' ]
+38 silly gunzTarPerm extractEntry package.json
+39 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+40 silly gunzTarPerm extractEntry .npmignore
+41 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+42 silly gunzTarPerm extractEntry README.md
+43 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+44 silly gunzTarPerm extractEntry LICENSE
+45 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+46 silly gunzTarPerm extractEntry index.js
+47 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+48 silly gunzTarPerm extractEntry examples/cdata.js
+49 silly gunzTarPerm modified mode [ 'examples/cdata.js', 420, 438 ]
+50 silly gunzTarPerm extractEntry binding.gyp
+51 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+52 silly gunzTarPerm extractEntry Makefile
+53 silly gunzTarPerm modified mode [ 'Makefile', 420, 438 ]
+54 silly gunzTarPerm extractEntry lib/bindings.js
+55 silly gunzTarPerm modified mode [ 'lib/bindings.js', 420, 438 ]
+56 silly gunzTarPerm extractEntry lib/comment.js
+57 silly gunzTarPerm modified mode [ 'lib/comment.js', 420, 438 ]
+58 silly gunzTarPerm extractEntry lib/document.js
+59 silly gunzTarPerm modified mode [ 'lib/document.js', 420, 438 ]
+60 silly gunzTarPerm extractEntry lib/element.js
+61 silly gunzTarPerm modified mode [ 'lib/element.js', 420, 438 ]
+62 silly gunzTarPerm extractEntry lib/sax_parser.js
+63 silly gunzTarPerm modified mode [ 'lib/sax_parser.js', 420, 438 ]
+64 silly gunzTarPerm extractEntry test/attribute.js
+65 silly gunzTarPerm modified mode [ 'test/attribute.js', 420, 438 ]
+66 silly gunzTarPerm extractEntry test/element.js
+67 silly gunzTarPerm modified mode [ 'test/element.js', 420, 438 ]
+68 silly gunzTarPerm extractEntry test/xml_parser.js
+69 silly gunzTarPerm modified mode [ 'test/xml_parser.js', 420, 438 ]
+70 silly gunzTarPerm extractEntry test/html_parser.js
+71 silly gunzTarPerm modified mode [ 'test/html_parser.js', 420, 438 ]
+72 silly gunzTarPerm extractEntry test/main.js
+73 silly gunzTarPerm modified mode [ 'test/main.js', 420, 438 ]
+74 silly gunzTarPerm extractEntry test/document.js
+75 silly gunzTarPerm modified mode [ 'test/document.js', 420, 438 ]
+76 silly gunzTarPerm extractEntry test/node_attributes.js
+77 silly gunzTarPerm modified mode [ 'test/node_attributes.js', 420, 438 ]
+78 silly gunzTarPerm extractEntry test/ref_integrity.js
+79 silly gunzTarPerm modified mode [ 'test/ref_integrity.js', 420, 438 ]
+80 silly gunzTarPerm extractEntry test/searching.js
+81 silly gunzTarPerm modified mode [ 'test/searching.js', 420, 438 ]
+82 silly gunzTarPerm extractEntry test/text_node.js
+83 silly gunzTarPerm modified mode [ 'test/text_node.js', 420, 438 ]
+84 silly gunzTarPerm extractEntry test/traversal.js
+85 silly gunzTarPerm modified mode [ 'test/traversal.js', 420, 438 ]
+86 silly gunzTarPerm extractEntry test/comment.js
+87 silly gunzTarPerm modified mode [ 'test/comment.js', 420, 438 ]
+88 silly gunzTarPerm extractEntry test/xml_sax_parser.js
+89 silly gunzTarPerm modified mode [ 'test/xml_sax_parser.js', 420, 438 ]
+90 silly gunzTarPerm extractEntry test/namespace.js
+91 silly gunzTarPerm modified mode [ 'test/namespace.js', 420, 438 ]
+92 silly gunzTarPerm extractEntry test/fixtures/errors/comment.xml
+93 silly gunzTarPerm modified mode [ 'test/fixtures/errors/comment.xml', 420, 438 ]
+94 silly gunzTarPerm extractEntry test/fixtures/parser-utf16.xml
+95 silly gunzTarPerm modified mode [ 'test/fixtures/parser-utf16.xml', 420, 438 ]
+96 silly gunzTarPerm extractEntry test/fixtures/parser.euc_jp.html
+97 silly gunzTarPerm modified mode [ 'test/fixtures/parser.euc_jp.html', 420, 438 ]
+98 silly gunzTarPerm extractEntry test/fixtures/parser.html
+99 silly gunzTarPerm modified mode [ 'test/fixtures/parser.html', 420, 438 ]
+100 silly gunzTarPerm extractEntry test/fixtures/parser.xml
+101 silly gunzTarPerm modified mode [ 'test/fixtures/parser.xml', 420, 438 ]
+102 silly gunzTarPerm extractEntry test/fixtures/sax_parser.xml
+103 silly gunzTarPerm modified mode [ 'test/fixtures/sax_parser.xml', 420, 438 ]
+104 silly gunzTarPerm extractEntry test/fixtures/warnings/amp.html
+105 silly gunzTarPerm modified mode [ 'test/fixtures/warnings/amp.html', 420, 438 ]
+106 silly gunzTarPerm extractEntry test/fixtures/warnings/ent9.xml
+107 silly gunzTarPerm modified mode [ 'test/fixtures/warnings/ent9.xml', 420, 438 ]
+108 silly gunzTarPerm extractEntry .travis.yml
+109 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+110 silly gunzTarPerm extractEntry src/xml_element.h
+111 silly gunzTarPerm modified mode [ 'src/xml_element.h', 420, 438 ]
+112 silly gunzTarPerm extractEntry src/html_document.cc
+113 silly gunzTarPerm modified mode [ 'src/html_document.cc', 420, 438 ]
+114 silly gunzTarPerm extractEntry src/libxmljs.cc
+115 silly gunzTarPerm modified mode [ 'src/libxmljs.cc', 420, 438 ]
+116 silly gunzTarPerm extractEntry src/libxmljs.h
+117 silly gunzTarPerm modified mode [ 'src/libxmljs.h', 420, 438 ]
+118 silly gunzTarPerm extractEntry src/xml_attribute.cc
+119 silly gunzTarPerm modified mode [ 'src/xml_attribute.cc', 420, 438 ]
+120 silly gunzTarPerm extractEntry src/xml_attribute.h
+121 silly gunzTarPerm modified mode [ 'src/xml_attribute.h', 420, 438 ]
+122 silly gunzTarPerm extractEntry src/xml_comment.cc
+123 silly gunzTarPerm modified mode [ 'src/xml_comment.cc', 420, 438 ]
+124 silly gunzTarPerm extractEntry src/xml_comment.h
+125 silly gunzTarPerm modified mode [ 'src/xml_comment.h', 420, 438 ]
+126 silly gunzTarPerm extractEntry src/xml_document.cc
+127 silly gunzTarPerm modified mode [ 'src/xml_document.cc', 420, 438 ]
+128 silly gunzTarPerm extractEntry src/xml_document.h
+129 silly gunzTarPerm modified mode [ 'src/xml_document.h', 420, 438 ]
+130 silly gunzTarPerm extractEntry src/xml_element.cc
+131 silly gunzTarPerm modified mode [ 'src/xml_element.cc', 420, 438 ]
+132 silly gunzTarPerm extractEntry src/html_document.h
+133 silly gunzTarPerm modified mode [ 'src/html_document.h', 420, 438 ]
+134 silly gunzTarPerm extractEntry src/xml_namespace.cc
+135 silly gunzTarPerm modified mode [ 'src/xml_namespace.cc', 420, 438 ]
+136 silly gunzTarPerm extractEntry src/xml_namespace.h
+137 silly gunzTarPerm modified mode [ 'src/xml_namespace.h', 420, 438 ]
+138 silly gunzTarPerm extractEntry src/xml_node.cc
+139 silly gunzTarPerm modified mode [ 'src/xml_node.cc', 420, 438 ]
+140 silly gunzTarPerm extractEntry src/xml_node.h
+141 silly gunzTarPerm modified mode [ 'src/xml_node.h', 420, 438 ]
+142 silly gunzTarPerm extractEntry src/xml_sax_parser.cc
+143 silly gunzTarPerm modified mode [ 'src/xml_sax_parser.cc', 420, 438 ]
+144 silly gunzTarPerm extractEntry src/xml_sax_parser.h
+145 silly gunzTarPerm modified mode [ 'src/xml_sax_parser.h', 420, 438 ]
+146 silly gunzTarPerm extractEntry src/xml_syntax_error.cc
+147 silly gunzTarPerm modified mode [ 'src/xml_syntax_error.cc', 420, 438 ]
+148 silly gunzTarPerm extractEntry src/xml_syntax_error.h
+149 silly gunzTarPerm modified mode [ 'src/xml_syntax_error.h', 420, 438 ]
+150 silly gunzTarPerm extractEntry src/xml_xpath_context.cc
+151 silly gunzTarPerm modified mode [ 'src/xml_xpath_context.cc', 420, 438 ]
+152 silly gunzTarPerm extractEntry src/xml_xpath_context.h
+153 silly gunzTarPerm modified mode [ 'src/xml_xpath_context.h', 420, 438 ]
+154 silly gunzTarPerm extractEntry vendor/libxml/schematron.c
+155 silly gunzTarPerm modified mode [ 'vendor/libxml/schematron.c', 420, 438 ]
+156 silly gunzTarPerm extractEntry vendor/libxml/DOCBparser.c
+157 silly gunzTarPerm modified mode [ 'vendor/libxml/DOCBparser.c', 420, 438 ]
+158 silly gunzTarPerm extractEntry vendor/libxml/HTMLtree.c
+159 silly gunzTarPerm modified mode [ 'vendor/libxml/HTMLtree.c', 420, 438 ]
+160 silly gunzTarPerm extractEntry vendor/libxml/SAX.c
+161 silly gunzTarPerm modified mode [ 'vendor/libxml/SAX.c', 420, 438 ]
+162 silly gunzTarPerm extractEntry vendor/libxml/SAX2.c
+163 silly gunzTarPerm modified mode [ 'vendor/libxml/SAX2.c', 420, 438 ]
+164 silly gunzTarPerm extractEntry vendor/libxml/buf.c
+165 silly gunzTarPerm modified mode [ 'vendor/libxml/buf.c', 420, 438 ]
+166 silly gunzTarPerm extractEntry vendor/libxml/buf.h
+167 silly gunzTarPerm modified mode [ 'vendor/libxml/buf.h', 420, 438 ]
+168 silly gunzTarPerm extractEntry vendor/libxml/c14n.c
+169 silly gunzTarPerm modified mode [ 'vendor/libxml/c14n.c', 420, 438 ]
+170 silly gunzTarPerm extractEntry vendor/libxml/catalog.c
+171 silly gunzTarPerm modified mode [ 'vendor/libxml/catalog.c', 420, 438 ]
+172 silly gunzTarPerm extractEntry vendor/libxml/chvalid.c
+173 silly gunzTarPerm modified mode [ 'vendor/libxml/chvalid.c', 420, 438 ]
+174 silly gunzTarPerm extractEntry vendor/libxml/config.h
+175 silly gunzTarPerm modified mode [ 'vendor/libxml/config.h', 420, 438 ]
+176 silly gunzTarPerm extractEntry vendor/libxml/debugXML.c
+177 silly gunzTarPerm modified mode [ 'vendor/libxml/debugXML.c', 420, 438 ]
+178 silly gunzTarPerm extractEntry vendor/libxml/dict.c
+179 silly gunzTarPerm modified mode [ 'vendor/libxml/dict.c', 420, 438 ]
+180 silly gunzTarPerm extractEntry vendor/libxml/elfgcchack.h
+181 silly gunzTarPerm modified mode [ 'vendor/libxml/elfgcchack.h', 420, 438 ]
+182 silly gunzTarPerm extractEntry vendor/libxml/enc.h
+183 silly gunzTarPerm modified mode [ 'vendor/libxml/enc.h', 420, 438 ]
+184 silly gunzTarPerm extractEntry vendor/libxml/encoding.c
+185 silly gunzTarPerm modified mode [ 'vendor/libxml/encoding.c', 420, 438 ]
+186 silly gunzTarPerm extractEntry vendor/libxml/entities.c
+187 silly gunzTarPerm modified mode [ 'vendor/libxml/entities.c', 420, 438 ]
+188 silly gunzTarPerm extractEntry vendor/libxml/error.c
+189 silly gunzTarPerm modified mode [ 'vendor/libxml/error.c', 420, 438 ]
+190 silly gunzTarPerm extractEntry vendor/libxml/globals.c
+191 silly gunzTarPerm modified mode [ 'vendor/libxml/globals.c', 420, 438 ]
+192 silly gunzTarPerm extractEntry vendor/libxml/hash.c
+193 silly gunzTarPerm modified mode [ 'vendor/libxml/hash.c', 420, 438 ]
+194 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/schematron.h
+195 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/schematron.h', 420, 438 ]
+196 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/DOCBparser.h
+197 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/DOCBparser.h', 420, 438 ]
+198 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/HTMLtree.h
+199 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/HTMLtree.h', 420, 438 ]
+200 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/Makefile
+201 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/Makefile', 420, 438 ]
+202 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/Makefile.am
+203 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/Makefile.am', 420, 438 ]
+204 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/Makefile.in
+205 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/Makefile.in', 420, 438 ]
+206 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/SAX.h
+207 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/SAX.h', 420, 438 ]
+208 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/SAX2.h
+209 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/SAX2.h', 420, 438 ]
+210 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/c14n.h
+211 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/c14n.h', 420, 438 ]
+212 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/catalog.h
+213 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/catalog.h', 420, 438 ]
+214 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/chvalid.h
+215 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/chvalid.h', 420, 438 ]
+216 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/debugXML.h
+217 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/debugXML.h', 420, 438 ]
+218 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/dict.h
+219 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/dict.h', 420, 438 ]
+220 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/encoding.h
+221 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/encoding.h', 420, 438 ]
+222 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/entities.h
+223 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/entities.h', 420, 438 ]
+224 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/globals.h
+225 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/globals.h', 420, 438 ]
+226 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/hash.h
+227 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/hash.h', 420, 438 ]
+228 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/list.h
+229 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/list.h', 420, 438 ]
+230 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/nanoftp.h
+231 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/nanoftp.h', 420, 438 ]
+232 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/nanohttp.h
+233 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/nanohttp.h', 420, 438 ]
+234 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/parser.h
+235 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/parser.h', 420, 438 ]
+236 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/parserInternals.h
+237 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/parserInternals.h', 420, 438 ]
+238 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/pattern.h
+239 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/pattern.h', 420, 438 ]
+240 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/relaxng.h
+241 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/relaxng.h', 420, 438 ]
+242 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/schemasInternals.h
+243 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/schemasInternals.h', 420, 438 ]
+244 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/HTMLparser.h
+245 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/HTMLparser.h', 420, 438 ]
+246 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/threads.h
+247 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/threads.h', 420, 438 ]
+248 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/tree.h
+249 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/tree.h', 420, 438 ]
+250 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/uri.h
+251 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/uri.h', 420, 438 ]
+252 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/valid.h
+253 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/valid.h', 420, 438 ]
+254 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/xinclude.h
+255 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/xinclude.h', 420, 438 ]
+256 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/xlink.h
+257 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/xlink.h', 420, 438 ]
+258 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/xmlIO.h
+259 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/xmlIO.h', 420, 438 ]
+260 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/xmlautomata.h
+261 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/xmlautomata.h', 420, 438 ]
+262 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/xmlerror.h
+263 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/xmlerror.h', 420, 438 ]
+264 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/xmlexports.h
+265 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/xmlexports.h', 420, 438 ]
+266 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/xmlmemory.h
+267 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/xmlmemory.h', 420, 438 ]
+268 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/xmlmodule.h
+269 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/xmlmodule.h', 420, 438 ]
+270 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/xmlreader.h
+271 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/xmlreader.h', 420, 438 ]
+272 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/xmlregexp.h
+273 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/xmlregexp.h', 420, 438 ]
+274 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/xmlsave.h
+275 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/xmlsave.h', 420, 438 ]
+276 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/xmlschemas.h
+277 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/xmlschemas.h', 420, 438 ]
+278 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/xmlschemastypes.h
+279 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/xmlschemastypes.h', 420, 438 ]
+280 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/xmlstring.h
+281 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/xmlstring.h', 420, 438 ]
+282 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/xmlunicode.h
+283 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/xmlunicode.h', 420, 438 ]
+284 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/xmlversion.h
+285 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/xmlversion.h', 420, 438 ]
+286 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/xmlwriter.h
+287 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/xmlwriter.h', 420, 438 ]
+288 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/xpath.h
+289 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/xpath.h', 420, 438 ]
+290 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/xpathInternals.h
+291 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/xpathInternals.h', 420, 438 ]
+292 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/xpointer.h
+293 silly gunzTarPerm modified mode [ 'vendor/libxml/include/libxml/xpointer.h', 420, 438 ]
+294 silly gunzTarPerm extractEntry vendor/libxml/include/win32config.h
+295 silly gunzTarPerm modified mode [ 'vendor/libxml/include/win32config.h', 420, 438 ]
+296 silly gunzTarPerm extractEntry vendor/libxml/include/wsockcompat.h
+297 silly gunzTarPerm modified mode [ 'vendor/libxml/include/wsockcompat.h', 420, 438 ]
+298 silly gunzTarPerm extractEntry vendor/libxml/legacy.c
+299 silly gunzTarPerm modified mode [ 'vendor/libxml/legacy.c', 420, 438 ]
+300 silly gunzTarPerm extractEntry vendor/libxml/libxml.gyp
+301 silly gunzTarPerm modified mode [ 'vendor/libxml/libxml.gyp', 420, 438 ]
+302 silly gunzTarPerm extractEntry vendor/libxml/libxml.h
+303 silly gunzTarPerm modified mode [ 'vendor/libxml/libxml.h', 420, 438 ]
+304 silly gunzTarPerm extractEntry vendor/libxml/list.c
+305 silly gunzTarPerm modified mode [ 'vendor/libxml/list.c', 420, 438 ]
+306 silly gunzTarPerm extractEntry vendor/libxml/nanoftp.c
+307 silly gunzTarPerm modified mode [ 'vendor/libxml/nanoftp.c', 420, 438 ]
+308 silly gunzTarPerm extractEntry vendor/libxml/nanohttp.c
+309 silly gunzTarPerm modified mode [ 'vendor/libxml/nanohttp.c', 420, 438 ]
+310 silly gunzTarPerm extractEntry vendor/libxml/parser.c
+311 silly gunzTarPerm modified mode [ 'vendor/libxml/parser.c', 420, 438 ]
+312 silly gunzTarPerm extractEntry vendor/libxml/parserInternals.c
+313 silly gunzTarPerm modified mode [ 'vendor/libxml/parserInternals.c', 420, 438 ]
+314 silly gunzTarPerm extractEntry vendor/libxml/pattern.c
+315 silly gunzTarPerm modified mode [ 'vendor/libxml/pattern.c', 420, 438 ]
+316 silly gunzTarPerm extractEntry vendor/libxml/relaxng.c
+317 silly gunzTarPerm modified mode [ 'vendor/libxml/relaxng.c', 420, 438 ]
+318 silly gunzTarPerm extractEntry vendor/libxml/runsuite.c
+319 silly gunzTarPerm modified mode [ 'vendor/libxml/runsuite.c', 420, 438 ]
+320 silly gunzTarPerm extractEntry vendor/libxml/save.h
+321 silly gunzTarPerm modified mode [ 'vendor/libxml/save.h', 420, 438 ]
+322 silly gunzTarPerm extractEntry vendor/libxml/HTMLparser.c
+323 silly gunzTarPerm modified mode [ 'vendor/libxml/HTMLparser.c', 420, 438 ]
+324 silly gunzTarPerm extractEntry vendor/libxml/threads.c
+325 silly gunzTarPerm modified mode [ 'vendor/libxml/threads.c', 420, 438 ]
+326 silly gunzTarPerm extractEntry vendor/libxml/timsort.h
+327 silly gunzTarPerm modified mode [ 'vendor/libxml/timsort.h', 420, 438 ]
+328 silly gunzTarPerm extractEntry vendor/libxml/tree.c
+329 silly gunzTarPerm modified mode [ 'vendor/libxml/tree.c', 420, 438 ]
+330 silly gunzTarPerm extractEntry vendor/libxml/trio.c
+331 silly gunzTarPerm modified mode [ 'vendor/libxml/trio.c', 420, 438 ]
+332 silly gunzTarPerm extractEntry vendor/libxml/trio.h
+333 silly gunzTarPerm modified mode [ 'vendor/libxml/trio.h', 420, 438 ]
+334 silly gunzTarPerm extractEntry vendor/libxml/triodef.h
+335 silly gunzTarPerm modified mode [ 'vendor/libxml/triodef.h', 420, 438 ]
+336 silly gunzTarPerm extractEntry vendor/libxml/trionan.c
+337 silly gunzTarPerm modified mode [ 'vendor/libxml/trionan.c', 420, 438 ]
+338 silly gunzTarPerm extractEntry vendor/libxml/trionan.h
+339 silly gunzTarPerm modified mode [ 'vendor/libxml/trionan.h', 420, 438 ]
+340 silly gunzTarPerm extractEntry vendor/libxml/triop.h
+341 silly gunzTarPerm modified mode [ 'vendor/libxml/triop.h', 420, 438 ]
+342 silly gunzTarPerm extractEntry vendor/libxml/triostr.c
+343 silly gunzTarPerm modified mode [ 'vendor/libxml/triostr.c', 420, 438 ]
+344 silly gunzTarPerm extractEntry vendor/libxml/triostr.h
+345 silly gunzTarPerm modified mode [ 'vendor/libxml/triostr.h', 420, 438 ]
+346 silly gunzTarPerm extractEntry vendor/libxml/uri.c
+347 silly gunzTarPerm modified mode [ 'vendor/libxml/uri.c', 420, 438 ]
+348 silly gunzTarPerm extractEntry vendor/libxml/valid.c
+349 silly gunzTarPerm modified mode [ 'vendor/libxml/valid.c', 420, 438 ]
+350 silly gunzTarPerm extractEntry vendor/libxml/xinclude.c
+351 silly gunzTarPerm modified mode [ 'vendor/libxml/xinclude.c', 420, 438 ]
+352 silly gunzTarPerm extractEntry vendor/libxml/xlink.c
+353 silly gunzTarPerm modified mode [ 'vendor/libxml/xlink.c', 420, 438 ]
+354 silly gunzTarPerm extractEntry vendor/libxml/xmlIO.c
+355 silly gunzTarPerm modified mode [ 'vendor/libxml/xmlIO.c', 420, 438 ]
+356 silly gunzTarPerm extractEntry vendor/libxml/xmlcatalog.c
+357 silly gunzTarPerm modified mode [ 'vendor/libxml/xmlcatalog.c', 420, 438 ]
+358 silly gunzTarPerm extractEntry vendor/libxml/xmllint.c
+359 silly gunzTarPerm modified mode [ 'vendor/libxml/xmllint.c', 420, 438 ]
+360 silly gunzTarPerm extractEntry vendor/libxml/xmlmemory.c
+361 silly gunzTarPerm modified mode [ 'vendor/libxml/xmlmemory.c', 420, 438 ]
+362 silly gunzTarPerm extractEntry vendor/libxml/xmlmodule.c
+363 silly gunzTarPerm modified mode [ 'vendor/libxml/xmlmodule.c', 420, 438 ]
+364 silly gunzTarPerm extractEntry vendor/libxml/xmlreader.c
+365 silly gunzTarPerm modified mode [ 'vendor/libxml/xmlreader.c', 420, 438 ]
+366 silly gunzTarPerm extractEntry vendor/libxml/xmlregexp.c
+367 silly gunzTarPerm modified mode [ 'vendor/libxml/xmlregexp.c', 420, 438 ]
+368 silly gunzTarPerm extractEntry vendor/libxml/xmlsave.c
+369 silly gunzTarPerm modified mode [ 'vendor/libxml/xmlsave.c', 420, 438 ]
+370 silly gunzTarPerm extractEntry vendor/libxml/xmlschemas.c
+371 silly gunzTarPerm modified mode [ 'vendor/libxml/xmlschemas.c', 420, 438 ]
+372 silly gunzTarPerm extractEntry vendor/libxml/xmlschemastypes.c
+373 silly gunzTarPerm modified mode [ 'vendor/libxml/xmlschemastypes.c', 420, 438 ]
+374 silly gunzTarPerm extractEntry vendor/libxml/xmlstring.c
+375 silly gunzTarPerm modified mode [ 'vendor/libxml/xmlstring.c', 420, 438 ]
+376 silly gunzTarPerm extractEntry vendor/libxml/xmlunicode.c
+377 silly gunzTarPerm modified mode [ 'vendor/libxml/xmlunicode.c', 420, 438 ]
+378 silly gunzTarPerm extractEntry vendor/libxml/xmlwriter.c
+379 silly gunzTarPerm modified mode [ 'vendor/libxml/xmlwriter.c', 420, 438 ]
+380 silly gunzTarPerm extractEntry vendor/libxml/xpath.c
+381 silly gunzTarPerm modified mode [ 'vendor/libxml/xpath.c', 420, 438 ]
+382 silly gunzTarPerm extractEntry vendor/libxml/xpointer.c
+383 silly gunzTarPerm modified mode [ 'vendor/libxml/xpointer.c', 420, 438 ]
+384 silly gunzTarPerm extractEntry vendor/libxml/xzlib.c
+385 silly gunzTarPerm modified mode [ 'vendor/libxml/xzlib.c', 420, 438 ]
+386 silly gunzTarPerm extractEntry vendor/libxml/xzlib.h
+387 silly gunzTarPerm modified mode [ 'vendor/libxml/xzlib.h', 420, 438 ]
+388 info preinstall libxmljs@0.13.0
+389 silly prepareForInstallMany adding bindings@1.1.1 from libxmljs dependencies
+390 silly prepareForInstallMany adding nan@1.5.1 from libxmljs dependencies
+391 silly cache add args [ 'bindings@1.1.1', null ]
+392 verbose cache add spec bindings@1.1.1
+393 silly cache add args [ 'nan@1.5.1', null ]
+394 verbose cache add spec nan@1.5.1
+395 silly cache add parsed spec { raw: 'bindings@1.1.1',
+395 silly cache add   scope: null,
+395 silly cache add   name: 'bindings',
+395 silly cache add   rawSpec: '1.1.1',
+395 silly cache add   spec: '1.1.1',
+395 silly cache add   type: 'version' }
+396 verbose addNamed bindings@1.1.1
+397 silly addNamed semver.valid 1.1.1
+398 silly addNamed semver.validRange 1.1.1
+399 silly mapToRegistry name bindings
+400 silly mapToRegistry using default registry
+401 silly mapToRegistry registry https://registry.npmjs.org/
+402 silly mapToRegistry uri https://registry.npmjs.org/bindings
+403 verbose addNameVersion registry:https://registry.npmjs.org/bindings not in flight; fetching
+404 silly cache add parsed spec { raw: 'nan@1.5.1',
+404 silly cache add   scope: null,
+404 silly cache add   name: 'nan',
+404 silly cache add   rawSpec: '1.5.1',
+404 silly cache add   spec: '1.5.1',
+404 silly cache add   type: 'version' }
+405 verbose addNamed nan@1.5.1
+406 silly addNamed semver.valid 1.5.1
+407 silly addNamed semver.validRange 1.5.1
+408 silly mapToRegistry name nan
+409 silly mapToRegistry using default registry
+410 silly mapToRegistry registry https://registry.npmjs.org/
+411 silly mapToRegistry uri https://registry.npmjs.org/nan
+412 verbose addNameVersion registry:https://registry.npmjs.org/nan not in flight; fetching
+413 verbose get https://registry.npmjs.org/bindings not expired, no request
+414 verbose get https://registry.npmjs.org/nan not expired, no request
+415 silly cache afterAdd bindings@1.1.1
+416 verbose afterAdd C:\Users\cshihadeh\AppData\Roaming\npm-cache\bindings\1.1.1\package\package.json not in flight; writing
+417 silly cache afterAdd nan@1.5.1
+418 verbose afterAdd C:\Users\cshihadeh\AppData\Roaming\npm-cache\nan\1.5.1\package\package.json not in flight; writing
+419 verbose afterAdd C:\Users\cshihadeh\AppData\Roaming\npm-cache\bindings\1.1.1\package\package.json written
+420 verbose afterAdd C:\Users\cshihadeh\AppData\Roaming\npm-cache\nan\1.5.1\package\package.json written
+421 silly install resolved [ { name: 'bindings',
+421 silly install resolved     description: 'Helper module for loading your native module\'s .node file',
+421 silly install resolved     keywords: [ 'native', 'addon', 'bindings', 'gyp', 'waf', 'c', 'c++' ],
+421 silly install resolved     version: '1.1.1',
+421 silly install resolved     author:
+421 silly install resolved      { name: 'Nathan Rajlich',
+421 silly install resolved        email: 'nathan@tootallnate.net',
+421 silly install resolved        url: 'http://tootallnate.net' },
+421 silly install resolved     repository:
+421 silly install resolved      { type: 'git',
+421 silly install resolved        url: 'git://github.com/TooTallNate/node-bindings.git' },
+421 silly install resolved     main: './bindings.js',
+421 silly install resolved     bugs: { url: 'https://github.com/TooTallNate/node-bindings/issues' },
+421 silly install resolved     _id: 'bindings@1.1.1',
+421 silly install resolved     dist:
+421 silly install resolved      { shasum: '951f7ae010302ffc50b265b124032017ed2bf6f3',
+421 silly install resolved        tarball: 'http://registry.npmjs.org/bindings/-/bindings-1.1.1.tgz' },
+421 silly install resolved     _from: 'bindings@1.1.1',
+421 silly install resolved     _npmVersion: '1.3.2',
+421 silly install resolved     _npmUser: { name: 'tootallnate', email: 'nathan@tootallnate.net' },
+421 silly install resolved     maintainers: [ [Object], [Object] ],
+421 silly install resolved     directories: {},
+421 silly install resolved     _shasum: '951f7ae010302ffc50b265b124032017ed2bf6f3',
+421 silly install resolved     _resolved: 'https://registry.npmjs.org/bindings/-/bindings-1.1.1.tgz',
+421 silly install resolved     readme: 'ERROR: No README data found!',
+421 silly install resolved     homepage: 'https://github.com/TooTallNate/node-bindings' },
+421 silly install resolved   { name: 'nan',
+421 silly install resolved     version: '1.5.1',
+421 silly install resolved     description: 'Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility',
+421 silly install resolved     main: 'include_dirs.js',
+421 silly install resolved     repository: { type: 'git', url: 'git://github.com/rvagg/nan.git' },
+421 silly install resolved     scripts:
+421 silly install resolved      { test: 'tap --gc test/js/*-test.js',
+421 silly install resolved        'rebuild-tests': 'node-gyp rebuild --directory test' },
+421 silly install resolved     contributors:
+421 silly install resolved      [ [Object],
+421 silly install resolved        [Object],
+421 silly install resolved        [Object],
+421 silly install resolved        [Object],
+421 silly install resolved        [Object],
+421 silly install resolved        [Object],
+421 silly install resolved        [Object] ],
+421 silly install resolved     devDependencies:
+421 silly install resolved      { bindings: '~1.2.1',
+421 silly install resolved        'node-gyp': '~1.0.2',
+421 silly install resolved        tap: '~0.4.13',
+421 silly install resolved        xtend: '~4.0.0' },
+421 silly install resolved     license: 'MIT',
+421 silly install resolved     gitHead: 'd05708b0aa6afebe9363b9f34cc5958d2af771f3',
+421 silly install resolved     bugs: { url: 'https://github.com/rvagg/nan/issues' },
+421 silly install resolved     homepage: 'https://github.com/rvagg/nan',
+421 silly install resolved     _id: 'nan@1.5.1',
+421 silly install resolved     _shasum: 'a565e4d4143cb49afdd3fe07e4c8aeaa1e7e0603',
+421 silly install resolved     _from: 'nan@1.5.1',
+421 silly install resolved     _npmVersion: '2.1.6',
+421 silly install resolved     _nodeVersion: '0.10.33',
+421 silly install resolved     _npmUser: { name: 'rvagg', email: 'rod@vagg.org' },
+421 silly install resolved     maintainers: [ [Object], [Object] ],
+421 silly install resolved     dist:
+421 silly install resolved      { shasum: 'a565e4d4143cb49afdd3fe07e4c8aeaa1e7e0603',
+421 silly install resolved        tarball: 'http://registry.npmjs.org/nan/-/nan-1.5.1.tgz' },
+421 silly install resolved     directories: {},
+421 silly install resolved     _resolved: 'https://registry.npmjs.org/nan/-/nan-1.5.1.tgz',
+421 silly install resolved     readme: 'ERROR: No README data found!' } ]
+422 info install bindings@1.1.1 into D:\Node.js Dev\JobsNode\node_modules\libxmljs
+423 info install nan@1.5.1 into D:\Node.js Dev\JobsNode\node_modules\libxmljs
+424 info installOne bindings@1.1.1
+425 verbose installOne of bindings to D:\Node.js Dev\JobsNode\node_modules\libxmljs not in flight; installing
+426 info installOne nan@1.5.1
+427 verbose installOne of nan to D:\Node.js Dev\JobsNode\node_modules\libxmljs not in flight; installing
+428 verbose lock using C:\Users\cshihadeh\AppData\Roaming\npm-cache\_locks\nan-abd200a0c3e9d82e.lock for D:\Node.js Dev\JobsNode\node_modules\libxmljs\node_modules\nan
+429 verbose lock using C:\Users\cshihadeh\AppData\Roaming\npm-cache\_locks\bindings-217102b214742073.lock for D:\Node.js Dev\JobsNode\node_modules\libxmljs\node_modules\bindings
+430 silly install write writing nan 1.5.1 to D:\Node.js Dev\JobsNode\node_modules\libxmljs\node_modules\nan
+431 silly cache addNamed cb nan@1.5.1
+432 verbose unbuild node_modules\libxmljs\node_modules\nan
+433 silly install write writing bindings 1.1.1 to D:\Node.js Dev\JobsNode\node_modules\libxmljs\node_modules\bindings
+434 silly cache addNamed cb bindings@1.1.1
+435 verbose unbuild node_modules\libxmljs\node_modules\bindings
+436 verbose gentlyRm vacuuming D:\Node.js Dev\JobsNode\node_modules\libxmljs\node_modules\nan
+437 verbose gentlyRm vacuuming D:\Node.js Dev\JobsNode\node_modules\libxmljs\node_modules\bindings
+438 verbose tar unpack C:\Users\cshihadeh\AppData\Roaming\npm-cache\nan\1.5.1\package.tgz
+439 verbose tar unpacking to D:\Node.js Dev\JobsNode\node_modules\libxmljs\node_modules\nan
+440 verbose gentlyRm vacuuming D:\Node.js Dev\JobsNode\node_modules\libxmljs\node_modules\nan
+441 verbose tar unpack C:\Users\cshihadeh\AppData\Roaming\npm-cache\bindings\1.1.1\package.tgz
+442 verbose tar unpacking to D:\Node.js Dev\JobsNode\node_modules\libxmljs\node_modules\bindings
+443 verbose gentlyRm vacuuming D:\Node.js Dev\JobsNode\node_modules\libxmljs\node_modules\bindings
+444 silly gunzTarPerm modes [ '777', '666' ]
+445 silly gunzTarPerm modes [ '777', '666' ]
+446 silly gunzTarPerm extractEntry package.json
+447 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+448 silly gunzTarPerm extractEntry package.json
+449 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+450 silly gunzTarPerm extractEntry README.md
+451 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+452 silly gunzTarPerm extractEntry bindings.js
+453 silly gunzTarPerm modified mode [ 'bindings.js', 420, 438 ]
+454 silly gunzTarPerm extractEntry README.md
+455 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+456 silly gunzTarPerm extractEntry include_dirs.js
+457 silly gunzTarPerm modified mode [ 'include_dirs.js', 420, 438 ]
+458 silly gunzTarPerm extractEntry LICENSE.md
+459 silly gunzTarPerm modified mode [ 'LICENSE.md', 420, 438 ]
+460 silly gunzTarPerm extractEntry .dntrc
+461 silly gunzTarPerm modified mode [ '.dntrc', 436, 438 ]
+462 silly gunzTarPerm extractEntry appveyor.yml
+463 silly gunzTarPerm modified mode [ 'appveyor.yml', 420, 438 ]
+464 silly gunzTarPerm extractEntry nan.h
+465 silly gunzTarPerm modified mode [ 'nan.h', 436, 438 ]
+466 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+467 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 438 ]
+468 info preinstall bindings@1.1.1
+469 silly install resolved []
+470 verbose about to build D:\Node.js Dev\JobsNode\node_modules\libxmljs\node_modules\bindings
+471 info build D:\Node.js Dev\JobsNode\node_modules\libxmljs\node_modules\bindings
+472 verbose linkStuff [ false,
+472 verbose linkStuff   false,
+472 verbose linkStuff   false,
+472 verbose linkStuff   'D:\\Node.js Dev\\JobsNode\\node_modules\\libxmljs\\node_modules' ]
+473 info linkStuff bindings@1.1.1
+474 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+475 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 438 ]
+476 silly gunzTarPerm extractEntry nan_new.h
+477 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 438 ]
+478 verbose linkBins bindings@1.1.1
+479 verbose linkMans bindings@1.1.1
+480 verbose rebuildBundles bindings@1.1.1
+481 info install bindings@1.1.1
+482 info postinstall bindings@1.1.1
+483 silly gunzTarPerm extractEntry CHANGELOG.md
+484 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 438 ]
+485 verbose unlock done using C:\Users\cshihadeh\AppData\Roaming\npm-cache\_locks\bindings-217102b214742073.lock for D:\Node.js Dev\JobsNode\node_modules\libxmljs\node_modules\bindings
+486 info preinstall nan@1.5.1
+487 silly install resolved []
+488 verbose about to build D:\Node.js Dev\JobsNode\node_modules\libxmljs\node_modules\nan
+489 info build D:\Node.js Dev\JobsNode\node_modules\libxmljs\node_modules\nan
+490 verbose linkStuff [ false,
+490 verbose linkStuff   false,
+490 verbose linkStuff   false,
+490 verbose linkStuff   'D:\\Node.js Dev\\JobsNode\\node_modules\\libxmljs\\node_modules' ]
+491 info linkStuff nan@1.5.1
+492 verbose linkBins nan@1.5.1
+493 verbose linkMans nan@1.5.1
+494 verbose rebuildBundles nan@1.5.1
+495 info install nan@1.5.1
+496 info postinstall nan@1.5.1
+497 verbose unlock done using C:\Users\cshihadeh\AppData\Roaming\npm-cache\_locks\nan-abd200a0c3e9d82e.lock for D:\Node.js Dev\JobsNode\node_modules\libxmljs\node_modules\nan
+498 verbose about to build D:\Node.js Dev\JobsNode\node_modules\libxmljs
+499 info build D:\Node.js Dev\JobsNode\node_modules\libxmljs
+500 verbose linkStuff [ false, false, false, 'D:\\Node.js Dev\\JobsNode\\node_modules' ]
+501 info linkStuff libxmljs@0.13.0
+502 verbose linkBins libxmljs@0.13.0
+503 verbose linkMans libxmljs@0.13.0
+504 verbose rebuildBundles libxmljs@0.13.0
+505 verbose rebuildBundles [ 'bindings', 'nan' ]
+506 info install libxmljs@0.13.0
+507 verbose unsafe-perm in lifecycle true
+508 info libxmljs@0.13.0 Failed to exec install script
+509 verbose unlock done using C:\Users\cshihadeh\AppData\Roaming\npm-cache\_locks\libxmljs-0f62e5c3febf8c2b.lock for D:\Node.js Dev\JobsNode\node_modules\libxmljs
+510 verbose stack Error: libxmljs@0.13.0 install: `node-gyp rebuild`
+510 verbose stack Exit status 1
+510 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:213:16)
+510 verbose stack     at EventEmitter.emit (events.js:110:17)
+510 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:14:12)
+510 verbose stack     at ChildProcess.emit (events.js:110:17)
+510 verbose stack     at maybeClose (child_process.js:1008:16)
+510 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1080:5)
+511 verbose pkgid libxmljs@0.13.0
+512 verbose cwd D:\Node.js Dev\JobsNode
+513 error Windows_NT 6.1.7601
+514 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "libxmljs"
+515 error node v0.12.0
+516 error npm  v2.5.1
+517 error code ELIFECYCLE
+518 error libxmljs@0.13.0 install: `node-gyp rebuild`
+518 error Exit status 1
+519 error Failed at the libxmljs@0.13.0 install script 'node-gyp rebuild'.
+519 error This is most likely a problem with the libxmljs package,
+519 error not with npm itself.
+519 error Tell the author that this fails on your system:
+519 error     node-gyp rebuild
+519 error You can get their info via:
+519 error     npm owner ls libxmljs
+519 error There is likely additional logging output above.
+520 verbose exit [ 1, true ]
+521 verbose unbuild node_modules\libxmljs
+522 info preuninstall libxmljs@0.13.0
+523 info uninstall libxmljs@0.13.0
+524 verbose unbuild rmStuff libxmljs@0.13.0 from D:\Node.js Dev\JobsNode\node_modules
+525 info postuninstall libxmljs@0.13.0
+526 verbose gentlyRm vacuuming D:\Node.js Dev\JobsNode\node_modules\libxmljs
+527 silly gentlyRm purging D:\Node.js Dev\JobsNode\node_modules\libxmljs
+528 silly gentlyRm quitting because other entries in D:\Node.js Dev\JobsNode\node_modules
