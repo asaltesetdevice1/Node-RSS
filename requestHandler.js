@@ -63,8 +63,8 @@ function news(request,response){
     console.log("Request Received for 'news' was called.");
 
     var xml='',json;
-  //  response.writeHead(200,{"Content-Type":"application/json; charset=utf-8"});
-    response.writeHead(200,{"Content-Type":"application/json"});
+    response.writeHead(200,{"Content-Type":"application/json; charset=utf-8"});
+    //response.writeHead(200,{"Content-Type":"application/json"});
     request=http.get(newsRss,function(res){
         res.on('data', function (chunk) {
             xml += chunk;
